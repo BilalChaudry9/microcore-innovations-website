@@ -77,6 +77,7 @@ nav ul li a {
 
 .service-item {
     flex: 1 1 calc(25% - 40px); /* Responsive design: 4 items per row with gaps */
+    max-width: calc(25% - 40px); /* Ensure items don't grow larger than desired width */
     box-sizing: border-box;
     padding: 20px;
     background-color: #f4f4f4;
