@@ -113,11 +113,6 @@ nav ul li a {
     gap: 20px;
 }
 
-.who-we-are-text {
-    flex: 2;
-    margin-right: 20px;
-}
-
 .who-we-are-images {
     flex: 1;
     display: flex;
@@ -128,6 +123,17 @@ nav ul li a {
 .who-we-are-images img {
     max-width: 100%;
     border-radius: 8px;
+}
+
+.who-we-are-text {
+    flex: 2;
+    margin-left: 10%;
+    text-align: left;
+}
+
+.who-we-are-text p {
+    max-width: 50ch; /* Limit the line length to about 13 words */
+    line-height: 1.6;
 }
 
 footer {
