@@ -97,6 +97,39 @@ nav ul li a {
     color: #333;
 }
 
+.who-we-are {
+    padding: 50px 20px;
+}
+
+.who-we-are h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.who-we-are-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.who-we-are-text {
+    flex: 2;
+    margin-right: 20px;
+}
+
+.who-we-are-images {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.who-we-are-images img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
 footer {
     background-color: #333;
     color: #fff;
